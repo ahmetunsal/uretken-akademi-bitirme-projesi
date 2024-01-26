@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 import '../assets/css/external.css'
 
@@ -11,9 +11,10 @@ function External() {
     const query = new URLSearchParams(location.search);
     const link = query.get('link');
     const [timeout, setTimeouts] = useState(5);
-    const [redirect, setRedirect] = useState(false);
-    
+    const [redirect, setRedirect] = useState(true);
+
     if (link.startsWith('http://')) {
+        setRedirect(false);
         return (
             <div className='external-container'>
                 <i className="fa-solid fa-circle-exclamation"></i>
@@ -28,16 +29,18 @@ function External() {
             </div>
         )
     } else {
-        setInterval(() => {
-            setTimeouts(timeout-1);
-        }, 1000);
-        setTimeout(() => {
-            if(redirect) {
-                window.location.replace(link)                
-            } else {
-                return;
-            }
-        }, 5000);
+        useEffect(() => {
+            setInterval(() => {
+                setTimeouts(timeout - 1);
+            }, 1000);
+            setTimeout(() => {
+                if (redirect) {
+                    window.location.replace(link)
+                } else {
+                    return;
+                }
+            }, 5000);
+        }, [redirect, timeout])
     }
 
     return (
