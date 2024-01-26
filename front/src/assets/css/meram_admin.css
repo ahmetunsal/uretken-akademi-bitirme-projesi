@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.settings {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.containera {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navi {
+    width: 15%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    background-color: #2e2e2ecb;
+}
+
+.pages {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+}
+
+.page {
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    background: linear-gradient(45deg, #2e2e2ecb, #000000cb);
+    transition: all 0.3s ease-in-out;
+}
+
+.page:hover {
+    background: linear-gradient(135deg, #000000cb, #2e2e2ecb);
+}
+
+.navi-header {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.page p {
+    padding: 0;
+    margin: 0;
+    margin-top: 2px;
+    margin-left: 15px;
+    text-decoration: none;
+}

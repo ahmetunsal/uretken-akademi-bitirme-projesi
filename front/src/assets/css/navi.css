@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-info {
+    padding: 10px;
+    background-color: #e9e9e9;
+    display: flex;
+    box-shadow: 0 0 10px #e9e9e9;
+}
+
+.nav-info .nav-info-right {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-info .nav-info-right a {
+    font-size: 14px;
+    margin-left: 10px;
+    color: #797979;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-info .nav-info-right a:hover {
+    font-size: 16px;
+    color: #5f5f5f;
+}
+
+.nav-info .nav-info-right i {
+    font-size: 1.3rem;
+    color: #797979;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-info .nav-info-left {
+    width: 50%;
+    display: flex;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: flex-start;
+    color: #797979;
+}
+
+
+.nav {
+    background-color: #dddddda6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.nav .logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-left: 2%;
+}
+
+.nav .nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-right: 2%;
+}
+
+.nav .user {
+    width: 16%;
+    background-color: #00f84a;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: #00f84a;
+    border-style: solid;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav .logo .nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.nav .user i,
+p {
+    color: #fff;
+    display: inline-block;
+}
+
+.nav .user:hover {
+    box-shadow: 0 0 10px #00fd54;
+}
+
+.nav .user p {
+    display: inline-block;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 10%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e9e9e9;
+}
+
+.search-input {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-input:hover {
+    outline: none;
+    box-shadow: 0 0 10px #00fd54;
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00fd54;
+}
+
+.search-input::placeholder {
+    color: #797979;
+}
+
+
+.search-button {
+    font-size: 16px;
+    background-color: transparent;
+    padding-right: 2%;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.search-button:hover {
+    cursor: pointer;
+}
+
+.search-button i {
+    color: #797979;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-button:hover i {
+    color: #303030;
+    text-shadow: #00f84a 0 0 10px;
+}
+
+.nav-link {
+    width: 150px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #636363;
+}
+
+
+.nav-menu-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-menu-right a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #636363;
+    transition: all 0.1s ease-in-out;
+}
+
+.nav-menu-right a:hover {
+    font-weight: 600;
+}
+
+.user-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    z-index: 1;
+}
+
+.user:hover .user-menu {
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00f84a;
+}
+
+.user:hover .user-menu a {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #00f84a;
+    padding: 5px;
+    text-decoration: none;
+    flex-direction: row;
+    transition: all 0.3s ease-in-out;
+}
+
+.user:hover .user-menu a:hover {
+    background-color: #00fd54;
+}
+
+.search-input:focus .search-res {
+    display: flex;
+}
+
+.search-res {
+    width: 540px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 39%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e9e9e9;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+}
+
+.search-input:focus + .search-res,
+.search-res:hover {
+    display: flex;
+}
+
+.search-res .search-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e9e9e9;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-res .search-list-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e9e9e9;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.search-res .search-list-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #e9e9e9;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.search-res .search-list-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.search-res .search-list-item .search-list-item-info {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.search-res .search-list-item .search-list-item-info h6 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,103 @@
+.general-form {
+    width: 100%;
+    max-width: 60%;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.general-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.general-form .form-info {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.general-form .form-info .form-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.general-form .form-info .form-image img {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover!important;
+    background-position: center;
+}
+
+.general-form .form-info .form-details {
+    width: 100%;
+}
+
+.general-form .form-info .form-details p {
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #505050;
+}
+
+.general-form .form-apply {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-form .form-apply label {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #505050;
+}
+
+.general-form .form-apply input {
+    width: 98%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+.general-form .form-apply textarea {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+}
+
+.general-form .form-apply button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    border: 1px;
+    background-color: #7eff64;
+}
+
+.form-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-details p {
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,39 @@
+
+
+.courses-container {
+    width: 100%;
+    height: 100%;
+}
+
+.courses-container .courses-info {
+    height: 100%;
+    width: 97%;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.coursess {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.coursess-no {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coursess .course {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.coursess .course h3 {
+    color: black;
+}

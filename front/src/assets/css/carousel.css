@@ -1,0 +1,46 @@
+/* Carousel.css */
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  .carousel-content {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .carousel-button-end {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .carousel-button:focus {
+    outline: none;
+  }
+  

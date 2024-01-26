@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.add-activity-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #6b6b6ba9;
+}
+
+.add-activity-header {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.new-activity-form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.new-activity-form input {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-activity-form textarea {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-activity-form label {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-activity-form input[type="datetime-local"] {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;;
+    border-radius: 10px;
+    border: none;
+}
+
+.new-activity-form .btn {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

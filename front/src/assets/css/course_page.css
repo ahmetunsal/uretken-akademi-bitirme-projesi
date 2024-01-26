@@ -1,0 +1,161 @@
+
+
+body {
+    box-sizing: border-box;
+}
+
+.course-page-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5%;
+}
+
+.general-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.genext-container {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.course-instructors {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-instructors h3 {
+    margin: 20px;
+}
+
+.course-instructor {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #9b9b9bad;
+}
+
+.course-instructor img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.course-instructor p {
+    margin-left: 20px;
+}
+
+.course-register {
+    width: 100%;
+    background-color: #9b9b9bad;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.course-register h3 {
+    margin: 20px;
+}
+
+.course-register .button {
+    display: flex;
+    width: 90%;
+    background-color: #65ff28;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #363636;
+}
+
+
+.course-page-course-info-left {
+    width: 94%;
+    height: 100%;
+    background-color: #9b9b9bad;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.course-page-course-info-left img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.course-page-course-info-header {
+    margin-top: 10px;
+}
+
+.course-page-course-info-description {
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #9b9b9bad;
+}
+
+.course-page-course-info-description p {
+    color: #363636;
+}
+
+.course-page-course-info-header .badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.course-page-course-info-header .badges .badges-cardd {
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}
+
+.course-page-course-info-header .badges .badges-cardd i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 5px;
+}
+
+.course-page-course-info-header .badges-cardd p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #363636;
+    margin-right: 10px;
+}
+
+
+.button-disabled {
+    background-color: #9b9b9bad!important;
+    color: #363636!important;
+}
+
+.button-disabled:hover {
+    cursor: not-allowed!important;
+}
+
+.lesson {
+    display: flex;
+    padding-left: 20px;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #9b9b9bad;
+}

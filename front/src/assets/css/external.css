@@ -1,0 +1,88 @@
+.external-container {
+    width: 50%;
+    height: 50%;
+    top: 30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.external-container .fa-circle-exclamation {
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 10rem;
+}
+
+.external-container i {
+    color: #1fd319;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 10rem;
+}
+
+
+.external-container p {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.external-container p span {
+    color: red!important;
+}
+
+.external-container a {
+    text-decoration: none;
+    text-align: center;
+    color: #1fd319;
+}
+
+.external-container a span {
+    display: flex;
+    margin: 10px;
+    text-align: center;
+    color: red!important;
+}
+
+.external-container .btn {
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-danger-outlined  {
+    border: 1px solid red;
+    color: red!important;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-success-outlined  {
+    border: 1px solid #1fd319;
+    color: #1fd319!important;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}

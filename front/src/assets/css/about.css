@@ -1,0 +1,124 @@
+.about-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ebebebbe;
+}
+
+.about-info {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(209, 209, 209, 0.733);
+}
+
+.about-list {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.about-list h1 {
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.animate__animated .animate__fadeInLeft {
+    opacity: 1;
+}
+
+.about-list ul {
+    list-style-type: circle;
+}
+
+.about-list li {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.about-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+.about-content {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+}
+
+.about-content #video iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.about-content p {
+    width: 100%;
+    font-size: 1.1em;
+    color: black;
+}
+
+.operations-card {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(209, 209, 209, 0.733);
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
