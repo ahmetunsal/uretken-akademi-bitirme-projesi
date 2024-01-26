@@ -15,6 +15,8 @@
     <li><a href="#hakkimizda">Hakkımızda</a></li>
     <li><a href="#sss">SSS (Sıkça Sorulan Sorular)</a></li>
     <li><a href="#iletisim">İletişim (Bakmayın bile :))</a></li>
+    <li><a href="#externalSafe">Harici Bağlantı (Güvenli)</a></li>
+    <li><a href="#externalNotSafe">Harici Bağlantı (Güvenli Değil)</a></li>
   </ul>
 </p>
 
@@ -57,4 +59,14 @@
 <p align="center">
   <h2 id="iletisim">İletişim (Uğraşılmadı)</h2>
   <img src="/photos/iletisim.png" />
+</p>
+<hr>
+<p align="center">
+  <h2 id="externalSafe">Harici Bağlantı (Güvenli)</h2>
+  <img src="/photos/externalSafe.png" />
+</p>
+<hr>
+<p align="center">
+  <h2 id="externalNotSafe">Harici Bağlantı (Güvenli Değil)</h2>
+  <img src="/photos/externalNotSafe.png" />
 </p>
