@@ -4,5 +4,8 @@
 `npm i` veya `npm install` yapıyoruz.
 
 `npm run dev` yapıp `localhost:5173` adlı portu tarayıcımıza girip keyfimize bakıyoruz.
+
 Derken son anda back-endi unutmayalım :) [buradan](https://github.com/ahmetunsal/uretken-akademi-bitirme-projesi/edit/main/backend) da bi' backend'e bakın bakalım...
 
+Boşa CSS uğraştırdı demiyorum :) Bunun yanında kesin mobil desteği falan vardır demeyin patlıyor mobilde :))
+<img src="/photos/percents.png" />
