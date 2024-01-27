@@ -1,7 +1,7 @@
 # Üretken Akademi Bitirme Projesi
 ### Üretken Akademi ReactJS programı dahilinde verilmiş olan Bitirme Projesi (E-Eğitim Aplikasyonu) ödevi reposu.
 ### Bir siteden referans alarak yaptım. Hiç aklıma responsive design gelmez. :)
-### İçerisinde Admin Page falan da var back-endiyle bayağı bir uğraşıldı fakat karmaşık şekilde şuan. Aceleye getirdiğim için (Evet 3 hafta aceleye getirdim) pek içime sinmedi. Daha responsive olması adına yenisine başlayacağım. Takipte kalın! 
+### İçerisinde Admin Page falan da var back-endiyle bayağı bir uğraşıldı fakat karmaşık şekilde şuan. Daha düzgün bir hale getirmek için uğraşacağım.  
 ### [Buraya da sitenin aktif linkini koyarım]()
 
 <p align="center">
